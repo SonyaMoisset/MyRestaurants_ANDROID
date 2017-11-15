@@ -10,8 +10,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    public static final String TAG = MainActivity.class.getSimpleName();
 
+    public static final String TAG = MainActivity.class.getSimpleName();
     private Button mFindRestaurantsButton;
     private EditText mLocationEditText;
 
@@ -37,6 +37,9 @@ public class MainActivity extends AppCompatActivity {
 
                 // Create a new intent
                 Intent intent = new Intent(MainActivity.this, RestaurantsActivity.class);
+
+                // Attach data to the Intent as key value pair
+                intent.putExtra("location", location);
 
                 // Start the activity with the intent
                 startActivity(intent);
