@@ -1,5 +1,6 @@
 package com.example.android.myrestaurants;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -24,8 +25,11 @@ public class MainActivity extends AppCompatActivity {
         mFindRestaurantsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Add a Toast
-                Toast.makeText(MainActivity.this, "Hello World!", Toast.LENGTH_SHORT).show();
+                // Create a new intent
+                Intent intent = new Intent(MainActivity.this, RestaurantsActivity.class);
+
+                // Start the activity with the intent
+                startActivity(intent);
             }
         });
     }
