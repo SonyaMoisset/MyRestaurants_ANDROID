@@ -135,6 +135,7 @@
     <orderEntry type="library" scope="TEST" name="com.ximpleware:vtd-xml:2.11@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-core-ui-26.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="org.ow2.asm:asm-analysis:5.0.1@jar" level="project" />
+    <orderEntry type="library" name="com.jakewharton:butterknife:7.0.1@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="org.robolectric:robolectric-annotations:3.0@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="com.android.support.test:runner-1.0.1" level="project" />
     <orderEntry type="library" scope="TEST" name="com.android.support.test:rules-1.0.1" level="project" />
